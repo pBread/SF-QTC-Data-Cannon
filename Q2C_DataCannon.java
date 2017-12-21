@@ -6,6 +6,7 @@ public class without sharing Q2C_DataCannon{
 		List<SBQQ__Quote__c> qsToInsertA = new List<SBQQ__Quote__c>();
 		List<SBQQ__Quote__c> qsToInsertB = new List<SBQQ__Quote__c>();
 
+		String ss = '';
 		List<Account> accts = [SELECT id, name FROM account LIMIT 100];
 		Set<Id> qInsertIds = new Set<Id>();
 
